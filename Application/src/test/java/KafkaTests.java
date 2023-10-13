@@ -1,5 +1,4 @@
 import org.bookApp.LibraryManager;
-import org.bookApp.Main;
 import org.bookApp.kafka.payload.Book;
 import org.json.simple.JSONObject;
 import org.junit.jupiter.api.BeforeAll;
@@ -49,5 +48,4 @@ public class KafkaTests {
         assertEquals(testBook.getPrice(), book.getPrice()); // Jämför priset på den hämtade boken med det förväntade.
 
     }
-
 }
